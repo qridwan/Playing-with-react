@@ -13,16 +13,18 @@ function App() {
     const url = `https://randomuser.me/api/?inc=gender,name,nat,location,picture,email&results=20`;
     fetch(url)
       .then((res) => res.json())
-      .then((data) => setInfos(data.results));
+      .then((data) => {
+        setInfos(data.results)
+        setBannerInfo(data.results[0]) 
+        });
   }, []);
 
   const handleBanner = (data) => {
-    console.log(data);
     setBannerInfo(data);
   };
   return (
     <UserContext.Provider value={[infos, setInfos]}>
-      <div className="container ">
+      <div className="container">
         <Navigation />
         <Banner bannerInfo={bannerInfo} />
         <Cards handleBanner={handleBanner} />

@@ -8,7 +8,7 @@ const Cards = ({handleBanner}) => {
     console.log("🚀 ~ file: Cards.js ~ line 6 ~ Cards ~ infos", infos)
     return (
         <Container>
-  <Row>
+  <Row className="justify-content-center">
   {
       infos.map((info, index) => <SingleCard key={index} info={info} handleBanner={handleBanner}/>)
   }
