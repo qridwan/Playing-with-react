@@ -22,4 +22,4 @@ run this code in your terminal:
  
  ## Dependencies:
   - React-Bootstrap 
-  - React Hooks (useState, useEffect, UseContext)
+  - React Hooks (useState, useEffect, useContext)
