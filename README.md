@@ -23,3 +23,4 @@ run this code in your terminal:
  ## Dependencies:
   - React-Bootstrap 
   - React Hooks (useState, useEffect, useContext)
+  - React Reveal (Animation)
