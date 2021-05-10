@@ -1,5 +1,14 @@
 # Task-Spacekawa
-
+## [Live Demo](https://task22-spacekawa.netlify.app/)
+ 
+### Projects Description
+ 
+ - Project is done by using ReactJS
+ - Fetched data from API
+ - Using Functional Component
+ - By clicking on a person’s card, the user details (at the top of the page) will be updated with the details of the newly
+   selected person.
+ 
 ## How to Install
 run this code in your terminal:
 
@@ -10,15 +19,6 @@ run this code in your terminal:
   cd task-spacekawa 
   
   npm start
- 
- ## [Live Demo](https://task22-spacekawa.netlify.app/)
- 
- ### Projects Description
- 
- - Project is done by using ReactJS
- - Fetched data from API
- - Using Functional Component
- - By Clicking Single card shown on the Banner for details.
  
  ## Dependencies:
   - React-Bootstrap 
