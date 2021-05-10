@@ -12,13 +12,13 @@
 ## How to Install
 run this code in your terminal:
 
-  git clone https://github.com/thisisrid/Task-Spacekawa.git 
+ 1. git clone https://github.com/thisisrid/Task-Spacekawa.git 
   
-  npm install
+ 2. npm install
   
-  cd task-spacekawa 
+ 3. cd task-spacekawa 
   
-  npm start
+ 4. npm start
  
  ## Dependencies:
   - React-Bootstrap 
