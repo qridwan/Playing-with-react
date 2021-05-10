@@ -14,9 +14,9 @@ function App() {
     fetch(url)
       .then((res) => res.json())
       .then((data) => {
-        setInfos(data.results)
-        setBannerInfo(data.results[0]) 
-        });
+        setInfos(data.results);
+        setBannerInfo(data.results[0]);
+      });
   }, []);
 
   const handleBanner = (data) => {

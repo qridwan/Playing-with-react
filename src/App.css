@@ -1,12 +1,11 @@
-
 body {
-  background: #F0F0F0 !important;
+  background: #f0f0f0 !important;
 }
-.nav-text:hover{
- border-bottom: 2px solid #a259ff;
+.nav-text:hover {
+  border-bottom: 2px solid #a259ff;
 }
 .box {
-  background: white ;
+  background: white;
   box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   cursor: pointer;
@@ -18,5 +17,5 @@ body {
 }
 
 .orange-text {
-  color: #E16259;
+  color: #e16259;
 }

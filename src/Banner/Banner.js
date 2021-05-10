@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 
 const Banner = ({ bannerInfo }) => {
-  const { gender, email, location, nat, picture, name } = bannerInfo;
+  const { gender, location, picture, name } = bannerInfo;
   return (
     <Row className="justify-content-center ">
       <Col className="" xs={10} md={7}>
