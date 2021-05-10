@@ -1,6 +1,7 @@
 # Task-Spacekawa
 
 ## How to Install
+run this code in your terminal:
 
   git clone https://github.com/thisisrid/Task-Spacekawa.git 
   
