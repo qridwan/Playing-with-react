@@ -1,9 +1,11 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import Slide from 'react-reveal/Slide';
 
 const Banner = ({ bannerInfo }) => {
   const { gender, location, picture, name } = bannerInfo;
   return (
+    <Slide top>
     <Row className="justify-content-center ">
       <Col className="" xs={10} md={7}>
         <Row className="justify-content-center align-items-center box my-5">
@@ -39,6 +41,7 @@ const Banner = ({ bannerInfo }) => {
         </Row>
       </Col>
     </Row>
+    </Slide>
   );
 };
 
